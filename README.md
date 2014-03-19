@@ -45,3 +45,40 @@ The `grb` command folds this together in a simple command:
 $ grb tag v1.5.6
 ```
 
+All supported commands
+----------------------
+
+### grb create
+Create a branch
+
+```sh
+$ grb create <branch-name>
+```
+
+### grb track
+Track an existing remote branch
+
+```sh
+$ grb track <remote-branch-name>
+```
+
+### grb remove
+Remove a branch
+
+```sh
+$ grb remove <branch-name>
+```
+
+### grb tag
+Create a tag
+
+```sh
+$ grb tag <tag-name>
+```
+
+### grb untag
+Remove a tag
+
+```sh
+$ grb untag <tag-name>
+```
