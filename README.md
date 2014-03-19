@@ -52,7 +52,8 @@ All supported commands
 Create a branch
 
 ```sh
-$ grb create <branch-name>
+$ grb create <branch-name> # Parent: "master"
+$ grb create <branch-name> <parent-branch-name>
 ```
 
 ### grb track
